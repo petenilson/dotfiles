@@ -1,0 +1,59 @@
+[[keyboard.bindings]]
+chars = '\p'
+key = "LBracket"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = '\n'
+key = "RBracket"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001E"
+key = "Key6"
+mods = "Control"
+
+[general]
+live_config_reload = true
+import = ["/Users/peternilson/.config/alacritty/catppuccin/catppuccin-mocha.yml"]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.glyph_offset]
+x = 0
+y = 5
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 10
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ''',│`|:"' ()[]{}<>	'''
+
+[window]
+startup_mode = "Windowed"
+opacity = 0.9
+blur = true
+
+[keyboard]
